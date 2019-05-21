@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/backg"
+    android:orientation="vertical">
+    <TextView
+        android:padding="10dp"
+        android:text="Operations "
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_rect"
+        android:drawableLeft="@drawable/icon_mail"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/icon_person"
+        android:hint="Enter Name"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_rect"
+        android:drawableLeft="@drawable/icon_mail"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/icon_person"
+        android:hint="Enter Surname"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/employee_id"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_rect"
+        android:drawableLeft="@drawable/icon_mail"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/icon_person"
+        android:hint="Enter Employee ID"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:textSize="15sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonDeleteUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnsignin_gradient"
+            android:layout_weight="1"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/buttonUpdateUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnsignin_gradient"
+            android:layout_weight="1"
+            android:text="Update" />
+    </LinearLayout>
+</LinearLayout>

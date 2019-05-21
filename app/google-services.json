@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "58343300805",
+    "firebase_url": "https://helpmebuy-779ef.firebaseio.com",
+    "project_id": "helpmebuy-779ef",
+    "storage_bucket": "helpmebuy-779ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58343300805:android:6475f7a60da0314e",
+        "android_client_info": {
+          "package_name": "cytex.co.zw.helpmebuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58343300805-bqou9m13d01v31dvagoob371pvu82bc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cytex.co.zw.helpmebuy",
+            "certificate_hash": "600a59d17e98fa11af992d061a675361747cb179"
+          }
+        },
+        {
+          "client_id": "58343300805-c17kf9tee3o9hfe4mui5t0fs5ks95goj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD52xfZQu_K2Qom26gRoKYNog9AdpY0Muc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58343300805-c17kf9tee3o9hfe4mui5t0fs5ks95goj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
